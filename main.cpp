@@ -28,7 +28,7 @@ int main() {
         }
         if (gays > 1) {}
         cout << "In the room are " << gays << " gays\n";
-    } if (gays < 0) {
+    } else if (gays < 0) {
         cout << "Hey, hey!How can be " << gays << " in the room?\n";
     }
 }
